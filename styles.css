@@ -99,7 +99,7 @@ nav .profile img {
 
 .product-item {
     width: 100%; /* Full width on smaller screens */
-    max-width: 400px; /* Limit max width */
+    max-width: 400px;
     padding: 10px;
     background-color: #12e2e9;
     border-radius: 8px;
@@ -109,7 +109,7 @@ nav .profile img {
 
 .collection .product .product-item img {
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
+    height: 40vh; /* Maintain aspect ratio */
 }
 
 /* Media queries */
