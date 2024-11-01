@@ -9,7 +9,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(70, 90, 180, 0.5);
+    background-color: #007bff;
     padding: 1.5rem;
 }
 
@@ -48,7 +48,7 @@ nav .list .list-item a {
 }
 
 nav .list .list-item a:hover {
-    color: #007bff;
+    color: black;
 }
 
 nav .profile {
