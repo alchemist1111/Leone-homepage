@@ -124,6 +124,47 @@ footer {
     margin-top: 10px;
 }
 
+footer p {
+    margin: 0;
+    text-align: center;
+    flex: 1;
+}
+
+footer .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+footer .social-media ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+
+footer .social-media ul li {
+    margin-right: 1rem;
+}
+
+footer .social-media ul li:last-child {
+    margin-right: 0; /* Remove right margin */
+}
+
+footer .social-media ul li a {
+    color: #131212;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+footer .social-media ul li a:hover {
+    color: #000; /* Hover effect */
+}
+
+
+
 /* Media queries */
 @media (max-width: 768px) {
     nav .list {
